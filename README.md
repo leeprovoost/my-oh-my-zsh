@@ -2,7 +2,7 @@
 
 My own oh-my-zsh setup and config files
 
-!https://github.com/leeprovoost/my-oh-my-zsh/blob/master/agnoster-theme.png!
+![Screenshot][https://github.com/leeprovoost/my-oh-my-zsh/blob/master/agnoster-theme.png]
 
 (Image source: https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) 
 
@@ -14,7 +14,7 @@ My own oh-my-zsh setup and config files
 - Powerline patched fonts: https://github.com/Lokaltog/powerline-fonts
 
 ## Installation
-Install "iTerm2":http://www.iterm2.com as a replacement for your OSX Terminal.
+Install [iTerm2](http://www.iterm2.com) as a replacement for your OSX Terminal.
 
 Use iTerm2 to install oh-my-zsh:
 ```
@@ -25,7 +25,7 @@ Download the powerline-fonts pack
 ```
 git clone https://github.com/Lokaltog/powerline-fonts.git
 ```
-(Or just get it from my github repo "here":https://github.com/leeprovoost/my-oh-my-zsh/blob/master/Meslo%20LG%20S%20Regular%20for%20Powerline.otf.)
+(Or just get it from my github repo [here](https://github.com/leeprovoost/my-oh-my-zsh/blob/master/Meslo%20LG%20S%20Regular%20for%20Powerline.otf).)
 
 Go to your iTerm2 Preferences panel and select a powerline font (I opted for 14pt Meslo LG S Regular for Powerline). Don't forget to set it for both the Font and Non-ASCII Font.
 
