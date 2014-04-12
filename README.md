@@ -2,7 +2,7 @@
 
 My own oh-my-zsh setup and config files
 
-![Screenshot][https://github.com/leeprovoost/my-oh-my-zsh/blob/master/agnoster-theme.png]
+![Screenshot](https://github.com/leeprovoost/my-oh-my-zsh/raw/master/agnoster-theme.png)
 
 (Image source: https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) 
 
