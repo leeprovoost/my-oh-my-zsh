@@ -42,7 +42,3 @@ Change whatever you want in the ZSH configuration file and don't forget to reloa
 ```
 source ~/.zshrc
 ```
-
-
-
-
