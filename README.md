@@ -25,7 +25,7 @@ Download the powerline-fonts pack
 ```
 git clone https://github.com/Lokaltog/powerline-fonts.git
 ```
-(Or just get it from my github repo [here](https://github.com/leeprovoost/my-oh-my-zsh/blob/master/Meslo%20LG%20S%20Regular%20for%20Powerline.otf).)
+(Or just get the specific font that I used from my github repo [here](https://github.com/leeprovoost/my-oh-my-zsh/blob/master/Meslo%20LG%20S%20Regular%20for%20Powerline.otf).)
 
 Go to your iTerm2 Preferences panel and select a powerline font (I opted for 14pt Meslo LG S Regular for Powerline). Don't forget to set it for both the Font and Non-ASCII Font.
 
