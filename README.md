@@ -33,7 +33,7 @@ Download the Solarized colour theme from http://ethanschoonover.com/solarized.
 
 Open your iTerm2 Preferences panel again and load the Solarized Dark theme in your Colors tab.
 
-Open your ZSH configuration file and add change the default ZSH_THEME to agnoster.
+Open your ZSH configuration file and change the default ZSH_THEME to agnoster.
 ```
 vi ~/.zshrc
 ```
@@ -42,3 +42,4 @@ Change whatever you want in the ZSH configuration file and don't forget to reloa
 ```
 source ~/.zshrc
 ```
+In case you’re interested, see here my [own](https://github.com/leeprovoost/my-oh-my-zsh/blob/master/zshconfig.txt) ZSH configuration file.
