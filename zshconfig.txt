@@ -12,6 +12,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 alias textedit='open -a TextEdit'
 alias -g zshconfig='~/.zshrc'
 alias -g ohmyzsh='~/.oh-my-zsh'
+alias -g dir='ls -laF'
 
 # Plugins
 plugins=(git vagrant sublime scala sbt osx mvn fabric brew)

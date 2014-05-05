@@ -14,7 +14,7 @@ My own oh-my-zsh setup and config files
 - Powerline patched fonts: https://github.com/Lokaltog/powerline-fonts
 
 ## Installation
-Install [iTerm2](http://www.iterm2.com) as a replacement for your OSX Terminal.
+Install [iTerm2](http://www.iterm2.com) as a replacement for your OSX Terminal. Note: Download one of the Test Releases. The latest stable release didn't display the fonts properly for me.
 
 Use iTerm2 to install oh-my-zsh:
 ```
