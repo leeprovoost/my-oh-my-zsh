@@ -16,6 +16,10 @@ export PATH="$PATH:$GOPATH/bin"
 
 # Google Cloud SDK
 export PATH="$PATH:/Users/leeprovoost/Documents/google-cloud-sdk/bin"
+alias goapp='/Users/leeprovoost/Documents/google-cloud-sdk/platform/google_appengine/goapp'
+
+# Postgres
+export PATH="$PATH:/Library/PostgreSQL/9.3/bin/psql"
 
 # Aliases
 alias textedit='open -a TextEdit'
