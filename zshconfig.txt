@@ -9,6 +9,7 @@ export PATH="/usr/local/bin:/Users/leeprovoost/.rbenv/shims:/usr/bin:/bin:/usr/s
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH="$PATH:/Users/leeprovoost/Documents/java/apache-cxf-3.0.0/bin"
 
 # Go
 export GOPATH="/Users/leeprovoost/go"
@@ -19,7 +20,10 @@ export PATH="$PATH:/Users/leeprovoost/Documents/google-cloud-sdk/bin"
 alias goapp='/Users/leeprovoost/Documents/google-cloud-sdk/platform/google_appengine/goapp'
 
 # Postgres
-export PATH="$PATH:/Library/PostgreSQL/9.3/bin/psql"
+export PATH="$PATH:/Library/PostgreSQL/9.3/bin"
+
+# Scalatra
+export PATH="$PATH:~/bin"
 
 # Aliases
 alias textedit='open -a TextEdit'
