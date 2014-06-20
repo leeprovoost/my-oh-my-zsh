@@ -23,7 +23,7 @@ alias goapp='/Users/leeprovoost/Documents/google-cloud-sdk/platform/google_appen
 export PATH="$PATH:/Library/PostgreSQL/9.3/bin"
 
 # Scalatra
-export PATH="$PATH:~/bin"
+export PATH="$PATH:/Users/leeprovoost/bin"
 
 # Aliases
 alias textedit='open -a TextEdit'
