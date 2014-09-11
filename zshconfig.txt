@@ -14,6 +14,8 @@ export PATH="$PATH:/Users/leeprovoost/Documents/java/apache-cxf-3.0.0/bin"
 # Go
 export GOPATH="/Users/leeprovoost/go"
 export PATH="$PATH:$GOPATH/bin"
+launchctl setenv GOPATH $(go env GOPATH)
+launchctl setenv GOROOT $(go env GOROOT)
 
 # Google Cloud SDK
 export PATH="$PATH:/Users/leeprovoost/Documents/google-cloud-sdk/bin"
