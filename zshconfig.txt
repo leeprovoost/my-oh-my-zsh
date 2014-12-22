@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 DEFAULT_USER="leeprovoost"
 DISABLE_UPDATE_PROMPT=true
-export PATH="/usr/local/bin:/Users/leeprovoost/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/leeprovoost/.rvm/bin:/usr/local/go/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/leeprovoost:/usr/local/go/bin"
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
@@ -24,8 +24,8 @@ alias goapp='/Users/leeprovoost/Documents/google-cloud-sdk/platform/google_appen
 # Postgres
 export PATH="$PATH:/Library/PostgreSQL/9.3/bin"
 
-# Scalatra
-export PATH="$PATH:/Users/leeprovoost/bin"
+# Ruby
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Aliases
 alias textedit='open -a TextEdit'
