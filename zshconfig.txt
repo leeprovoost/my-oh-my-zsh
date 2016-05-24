@@ -16,16 +16,31 @@ export PATH="$PATH:$GOPATH/bin"
 launchctl setenv GOPATH $(go env GOPATH)
 launchctl setenv GOROOT $(go env GOROOT)
 
-# Ruby
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
 # Aliases
-alias textedit='open -a TextEdit'
+alias -g textedit='open -a TextEdit'
 alias -g zshconfig='~/.zshrc'
 alias -g ohmyzsh='~/.oh-my-zsh'
 alias -g dir='ls -laF'
+alias -g tfgu='terraform get -update'
+alias -g tfp='terraform plan -module-depth=-1'
+alias -g tfa="terraform apply"
+alias -g tffmt="terraform fmt"
 
 # Plugins
-plugins=(git vagrant sublime scala sbt osx mvn fabric brew)
+plugins=(git vagrant osx fabric brew aws terraform)
+
+# Include AWS Terraform Credentials file
+source $HOME/aws-terraform-creds.sh
+# Add awsassumerole script to path
+export PATH=$PATH:/Users/leeprovoost/projects/aws/aws-iam-sts-keys-generator
+# Terraform bleeding edge
+alias tf2='$GOPATH/bin/terraform'
+# Andiamo Go Apps
+export ENV=LOCAL
 
 source $ZSH/oh-my-zsh.sh
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+iterm2_print_user_vars() {
+  iterm2_set_user_var gitBranch $((git branch 2> /dev/null) | grep \* | cut -c3-)
+}
